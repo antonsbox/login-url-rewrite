@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Antonsbox_LoginUrlRewrite>
+            <version>0.1.0</version>
+        </Antonsbox_LoginUrlRewrite>
+    </modules>
+    <frontend>
+        <routers>
+            <customer>
+                <use>standard</use>
+                <args>
+                    <module>Antonsbox_LoginUrlRewrite</module>
+                    <frontName>customer</frontName>
+                </args>
+            </customer>
+        </routers>
+    </frontend>
+</config>

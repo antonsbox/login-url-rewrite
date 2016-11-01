@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Antonsbox_LoginUrlRewrite>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Antonsbox_LoginUrlRewrite>
+    </modules>
+</config>
